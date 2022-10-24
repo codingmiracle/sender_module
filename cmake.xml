@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="esp32" ENABLED="true">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="ESPPORT" value="COM3" />
+            <env name="IDF_PATH" value="C:\Users\dagra\esp\esp-idf" />
+            <env name="Path" value="C:\Espressif\tools\xtensa-esp-elf-gdb\11.2_20220808\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\11.2_20220808\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2022r1-11.2.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2022r1-11.2.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2022r1-11.2.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220706\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf5.1_py3.9_env\Scripts;C:\Users\dagra\esp\esp-idf\tools;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\MinGW\lib;C:\Users\dagra\AppData\Local\Programs\Python\Python39;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Users\dagra\nvm;C:\Program Files\nodejs;C:\Espressif\bin;C:\Users\dagra\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\dagra\AppData\Local\Programs\Python\Python39\;C:\Users\dagra\.cargo\bin;C:\Users\dagra\.local\share\solana\install\active_release\bin;C:\Users\dagra\AppData\Local\Microsoft\WindowsApps;C:\Users\dagra\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dagra\.jdks\jdk-17\bin;C:\Users\dagra\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files;C:\Users\dagra\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\dagra\AppData\Local\Programs\Python\Python39;C:\Users\dagra\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\dagra\AppData\Local\Programs\Git\cmd;C:\Users\dagra\AppData\Local\JetBrains\Toolbox\scripts" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+</project>

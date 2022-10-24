@@ -1,0 +1,28 @@
+fatal: not a git repository: C:/Users/dagra/esp/esp-idf/.git/modules/components/spiffs/spiffs
+Cloning into 'C:/Users/dagra/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:kmackay/micro-ecc.git' into submodule path 'C:/Users/dagra/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc' failed
+Failed to clone 'components/bootloader/subproject/components/micro-ecc/micro-ecc'. Retry scheduled
+Cloning into 'C:/Users/dagra/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:kmackay/micro-ecc.git' into submodule path 'C:/Users/dagra/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc' failed
+Failed to clone 'components/bootloader/subproject/components/micro-ecc/micro-ecc' a second time, aborting
+CMake Error at C:/Users/dagra/esp/esp-idf/tools/cmake/git_submodules.cmake:48 (message):
+  Git submodule init failed for
+  components/bootloader/subproject/components/micro-ecc/micro-ecc
+Call Stack (most recent call first):
+  C:/Users/dagra/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  C:/Users/dagra/esp/esp-idf/tools/cmake/build.cmake:237 (__build_get_idf_git_revision)
+  C:/Users/dagra/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  C:/Users/dagra/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:7 (include)
+
+

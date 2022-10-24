@@ -1,0 +1,2312 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						62,
+						64,
+						67,
+						69,
+						78,
+						80,
+						81,
+						82,
+						88,
+						89,
+						95,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103
+					]
+				},
+				{
+					"build" : "esp-idf",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						23,
+						24,
+						25,
+						26,
+						27,
+						29,
+						31,
+						32,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-esp-idf-Debug-dcae2002831b949c77a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master"
+				},
+				{
+					"build" : "esp-idf/xtensa",
+					"jsonFile" : "directory-esp-idf.xtensa-Debug-ecc62d1ab18c96779cf2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/xtensa",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "esp-idf/esp_ringbuf",
+					"jsonFile" : "directory-esp-idf.esp_ringbuf-Debug-f7565ec989910929ffcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_ringbuf",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "esp-idf/efuse",
+					"jsonFile" : "directory-esp-idf.efuse-Debug-3130e25e4dd4a005870b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/efuse",
+					"targetIndexes" : 
+					[
+						7,
+						71,
+						72,
+						73,
+						74,
+						75,
+						96,
+						97
+					]
+				},
+				{
+					"build" : "esp-idf/driver",
+					"jsonFile" : "directory-esp-idf.driver-Debug-e51f1ee83ac2dbd259a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/driver",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "esp-idf/esp_pm",
+					"jsonFile" : "directory-esp-idf.esp_pm-Debug-5bbce9ceb6ff41c3309c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_pm",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "esp-idf/mbedtls",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-esp-idf.mbedtls-Debug-4a393f7c2facf15c463d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mbedtls",
+					"targetIndexes" : 
+					[
+						41,
+						70
+					]
+				},
+				{
+					"build" : "esp-idf/mbedtls/mbedtls",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-esp-idf.mbedtls.mbedtls-Debug-2d92c193dc445a3dfc6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mbedtls/mbedtls",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "esp-idf/mbedtls/mbedtls/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-esp-idf.mbedtls.mbedtls.include-Debug-b971a744367798f3abe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 2,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mbedtls/mbedtls/include"
+				},
+				{
+					"build" : "esp-idf/mbedtls/mbedtls/3rdparty",
+					"jsonFile" : "directory-esp-idf.mbedtls.mbedtls.3rdparty-Debug-43f97aa448eff229034a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 2,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mbedtls/mbedtls/3rdparty"
+				},
+				{
+					"build" : "esp-idf/mbedtls/mbedtls/library",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-esp-idf.mbedtls.mbedtls.library-Debug-f18ef4a2f86ee1415663.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 2,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mbedtls/mbedtls/library",
+					"targetIndexes" : 
+					[
+						83,
+						84,
+						85,
+						86
+					]
+				},
+				{
+					"build" : "esp-idf/esp_app_format",
+					"jsonFile" : "directory-esp-idf.esp_app_format-Debug-923f4d4f56ecb61913a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_app_format",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "esp-idf/bootloader_support",
+					"jsonFile" : "directory-esp-idf.bootloader_support-Debug-e14605fdf2d50f654a5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/bootloader_support",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "esp-idf/bootloader",
+					"jsonFile" : "directory-esp-idf.bootloader-Debug-7929357b350dfc5b183f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/bootloader",
+					"targetIndexes" : 
+					[
+						68,
+						77
+					]
+				},
+				{
+					"build" : "esp-idf/esptool_py",
+					"jsonFile" : "directory-esp-idf.esptool_py-Debug-86d6d7add4f3b61f7c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esptool_py",
+					"targetIndexes" : 
+					[
+						65,
+						66,
+						76
+					]
+				},
+				{
+					"build" : "esp-idf/partition_table",
+					"jsonFile" : "directory-esp-idf.partition_table-Debug-ca6784358794572ba22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/partition_table",
+					"targetIndexes" : 
+					[
+						79,
+						90,
+						91,
+						92,
+						93,
+						94
+					]
+				},
+				{
+					"build" : "esp-idf/app_update",
+					"jsonFile" : "directory-esp-idf.app_update-Debug-3c7a1ec6d93bc3e5a56c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/app_update",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "esp-idf/spi_flash",
+					"jsonFile" : "directory-esp-idf.spi_flash-Debug-19ed3885e6922fe2213b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/spi_flash",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "esp-idf/pthread",
+					"jsonFile" : "directory-esp-idf.pthread-Debug-063fbb4c7cc54c65a451.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/pthread",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "esp-idf/esp_system",
+					"childIndexes" : 
+					[
+						21
+					],
+					"jsonFile" : "directory-esp-idf.esp_system-Debug-256d2224223e6375b213.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_system",
+					"targetIndexes" : 
+					[
+						28,
+						61,
+						87
+					]
+				},
+				{
+					"build" : "esp-idf/esp_system/port",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-esp-idf.esp_system.port-Debug-68a03178a7a3d4d025f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_system/port"
+				},
+				{
+					"build" : "esp-idf/esp_system/port/soc/esp32",
+					"jsonFile" : "directory-esp-idf.esp_system.port.soc.esp32-Debug-aa88507133c9c598eb07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_system/port/soc/esp32"
+				},
+				{
+					"build" : "esp-idf/esp_rom",
+					"jsonFile" : "directory-esp-idf.esp_rom-Debug-6fd8001e03a14ba15d74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_rom",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "esp-idf/hal",
+					"jsonFile" : "directory-esp-idf.hal-Debug-7d6d69742a563f620a9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/hal",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "esp-idf/log",
+					"jsonFile" : "directory-esp-idf.log-Debug-6b78176b9c76fa57bbab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/log",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "esp-idf/heap",
+					"jsonFile" : "directory-esp-idf.heap-Debug-d0e4edd441f9cc0e264f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/heap",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "esp-idf/soc",
+					"childIndexes" : 
+					[
+						28
+					],
+					"jsonFile" : "directory-esp-idf.soc-Debug-2c51c7f79d3934d82636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/soc",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "esp-idf/soc/esp32",
+					"jsonFile" : "directory-esp-idf.soc.esp32-Debug-b8d6c2c9234c66dca95d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/soc/esp32"
+				},
+				{
+					"build" : "esp-idf/esp_hw_support",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-esp-idf.esp_hw_support-Debug-0b9b4e28dba3c1d1bec3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_hw_support",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hw_support/port/esp32",
+					"jsonFile" : "directory-esp-idf.esp_hw_support.port.esp32-Debug-02eaecb35779c2f9d9f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_hw_support/port/esp32"
+				},
+				{
+					"build" : "esp-idf/freertos",
+					"jsonFile" : "directory-esp-idf.freertos-Debug-daaffa89358e514f073e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/freertos",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "esp-idf/newlib",
+					"childIndexes" : 
+					[
+						33
+					],
+					"jsonFile" : "directory-esp-idf.newlib-Debug-872b27e88331106a45de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/newlib",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "esp-idf/newlib/port",
+					"jsonFile" : "directory-esp-idf.newlib.port-Debug-511b576a56499459c238.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/newlib/port"
+				},
+				{
+					"build" : "esp-idf/cxx",
+					"jsonFile" : "directory-esp-idf.cxx-Debug-15807eee799efc003a8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/cxx",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "esp-idf/esp_common",
+					"jsonFile" : "directory-esp-idf.esp_common-Debug-9be02965a44198334a03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_common",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "esp-idf/esp_timer",
+					"jsonFile" : "directory-esp-idf.esp_timer-Debug-ed0a5af7df38631b168a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_timer",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "esp-idf/app_trace",
+					"jsonFile" : "directory-esp-idf.app_trace-Debug-644bc23125d80831ee95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/app_trace",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "esp-idf/esp_event",
+					"jsonFile" : "directory-esp-idf.esp_event-Debug-66085f0a5dbc388524fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_event",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "esp-idf/nvs_flash",
+					"jsonFile" : "directory-esp-idf.nvs_flash-Debug-87a076d37196c6e17366.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/nvs_flash",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "esp-idf/esp_phy",
+					"jsonFile" : "directory-esp-idf.esp_phy-Debug-bcf3f1aeb92a16ac9d2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_phy",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "esp-idf/vfs",
+					"jsonFile" : "directory-esp-idf.vfs-Debug-1fec036a25054d198855.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/vfs",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "esp-idf/lwip",
+					"jsonFile" : "directory-esp-idf.lwip-Debug-3655906e9418ba989b00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/lwip",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "esp-idf/esp_netif",
+					"jsonFile" : "directory-esp-idf.esp_netif-Debug-3b85edd8edaf6bc0fbed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_netif",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "esp-idf/wpa_supplicant",
+					"jsonFile" : "directory-esp-idf.wpa_supplicant-Debug-a65cabdd1a4e99a05e34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/wpa_supplicant",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "esp-idf/esp_wifi",
+					"jsonFile" : "directory-esp-idf.esp_wifi-Debug-50db1d1c25436324df60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_wifi",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "esp-idf/bt",
+					"jsonFile" : "directory-esp-idf.bt-Debug-27a0c88de6e72051750b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/bt"
+				},
+				{
+					"build" : "esp-idf/unity",
+					"jsonFile" : "directory-esp-idf.unity-Debug-9059623bea8e58f24d19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/unity",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "esp-idf/cmock",
+					"jsonFile" : "directory-esp-idf.cmock-Debug-d298c1b8e0bd80591872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/cmock",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "esp-idf/console",
+					"jsonFile" : "directory-esp-idf.console-Debug-94f08884b7b642f206b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/console",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "esp-idf/http_parser",
+					"jsonFile" : "directory-esp-idf.http_parser-Debug-de8b2cefbcef9949c1a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/http_parser",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "esp-idf/esp-tls",
+					"jsonFile" : "directory-esp-idf.esp-tls-Debug-4767b9dddb498362482f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp-tls",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "esp-idf/esp_adc",
+					"jsonFile" : "directory-esp-idf.esp_adc-Debug-6f606bcb3587823f7420.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_adc",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "esp-idf/esp_eth",
+					"jsonFile" : "directory-esp-idf.esp_eth-Debug-94ac4c662b4e853e916c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_eth",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "esp-idf/esp_gdbstub",
+					"jsonFile" : "directory-esp-idf.esp_gdbstub-Debug-6cace157e4b8943de936.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_gdbstub",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "esp-idf/esp_hid",
+					"jsonFile" : "directory-esp-idf.esp_hid-Debug-f2913cc2f91d49711f72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_hid",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "esp-idf/tcp_transport",
+					"jsonFile" : "directory-esp-idf.tcp_transport-Debug-8bb8a7b5401c0cf9fe32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/tcp_transport",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "esp-idf/esp_http_client",
+					"jsonFile" : "directory-esp-idf.esp_http_client-Debug-4bdde8e871f232d8f963.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_http_client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "esp-idf/esp_http_server",
+					"jsonFile" : "directory-esp-idf.esp_http_server-Debug-6eaaa885de1ba4c7557d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_http_server",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "esp-idf/esp_https_ota",
+					"jsonFile" : "directory-esp-idf.esp_https_ota-Debug-dcfed7b9fc838ccf3c26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_https_ota",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "esp-idf/esp_https_server",
+					"jsonFile" : "directory-esp-idf.esp_https_server-Debug-9a09e14c435f9d99f707.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_https_server"
+				},
+				{
+					"build" : "esp-idf/esp_lcd",
+					"jsonFile" : "directory-esp-idf.esp_lcd-Debug-ebfe8fb12afea51af9ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_lcd",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "esp-idf/protobuf-c",
+					"jsonFile" : "directory-esp-idf.protobuf-c-Debug-c43dbae0b066d96801c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/protobuf-c",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "esp-idf/protocomm",
+					"jsonFile" : "directory-esp-idf.protocomm-Debug-d13235274041e926cfb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/protocomm",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "esp-idf/esp_local_ctrl",
+					"jsonFile" : "directory-esp-idf.esp_local_ctrl-Debug-54228e35f64de1979828.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_local_ctrl",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "esp-idf/esp_psram",
+					"jsonFile" : "directory-esp-idf.esp_psram-Debug-50a1ff1c4ef4acbe5cfa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_psram"
+				},
+				{
+					"build" : "esp-idf/sdmmc",
+					"jsonFile" : "directory-esp-idf.sdmmc-Debug-032671b708c738e1ed5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/sdmmc",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "esp-idf/esp_serial_slave_link",
+					"jsonFile" : "directory-esp-idf.esp_serial_slave_link-Debug-18cb0418887886924792.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/esp_serial_slave_link",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "esp-idf/espcoredump",
+					"jsonFile" : "directory-esp-idf.espcoredump-Debug-a2d8f948e88d447a694b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/espcoredump",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "esp-idf/wear_levelling",
+					"jsonFile" : "directory-esp-idf.wear_levelling-Debug-d3c8c9eee22ed8615536.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/wear_levelling",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "esp-idf/fatfs",
+					"jsonFile" : "directory-esp-idf.fatfs-Debug-0462a22b030827ec54b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/fatfs",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "esp-idf/idf_test",
+					"jsonFile" : "directory-esp-idf.idf_test-Debug-861bb1a4e2a158d3f2d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/idf_test"
+				},
+				{
+					"build" : "esp-idf/ieee802154",
+					"jsonFile" : "directory-esp-idf.ieee802154-Debug-5f2592e3cd912ebe5d9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/ieee802154"
+				},
+				{
+					"build" : "esp-idf/json",
+					"jsonFile" : "directory-esp-idf.json-Debug-ac3795abf7e45428d356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/json",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "esp-idf/mqtt",
+					"jsonFile" : "directory-esp-idf.mqtt-Debug-55f59f2a45440ca5cc5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/mqtt",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "esp-idf/openthread",
+					"jsonFile" : "directory-esp-idf.openthread-Debug-28f85364639459a9e45e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/openthread"
+				},
+				{
+					"build" : "esp-idf/perfmon",
+					"jsonFile" : "directory-esp-idf.perfmon-Debug-f540f6ff13cc052d03da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/perfmon",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "esp-idf/spiffs",
+					"jsonFile" : "directory-esp-idf.spiffs-Debug-027afd2283300ae8b920.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/spiffs",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "esp-idf/usb",
+					"jsonFile" : "directory-esp-idf.usb-Debug-e885b83fc2225903c9d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/usb"
+				},
+				{
+					"build" : "esp-idf/tinyusb",
+					"jsonFile" : "directory-esp-idf.tinyusb-Debug-ea36327946ec397dafd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/tinyusb"
+				},
+				{
+					"build" : "esp-idf/ulp",
+					"jsonFile" : "directory-esp-idf.ulp-Debug-532420f581fd3de11486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/ulp",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "esp-idf/wifi_provisioning",
+					"jsonFile" : "directory-esp-idf.wifi_provisioning-Debug-97a86bc78bae98f27b7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Espressif/frameworks/esp-idf-master/components/wifi_provisioning",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "esp-idf/main",
+					"jsonFile" : "directory-esp-idf.main-Debug-5bff74fee2a922659b4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						40
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uart_async_rxtxtasks",
+					"targetIndexes" : 
+					[
+						62,
+						64,
+						67,
+						69,
+						78,
+						80,
+						81,
+						82,
+						88,
+						89,
+						95,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82
+					],
+					"name" : "esp-idf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						65,
+						66,
+						68,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						79,
+						87,
+						90,
+						91,
+						92,
+						93,
+						94,
+						96,
+						97
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "mbed TLS",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						63,
+						83,
+						84,
+						85,
+						86
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 37,
+					"id" : "__idf_app_trace::@dd7eb3aa23293586d3b8",
+					"jsonFile" : "target-__idf_app_trace-Debug-bd5ee810b9195d36aba9.json",
+					"name" : "__idf_app_trace",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "__idf_app_update::@cc3b426666063acc9674",
+					"jsonFile" : "target-__idf_app_update-Debug-41931228beb249214844.json",
+					"name" : "__idf_app_update",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "__idf_bootloader_support::@d88583f91142925c6676",
+					"jsonFile" : "target-__idf_bootloader_support-Debug-7e037eb8d1d94293a5da.json",
+					"name" : "__idf_bootloader_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "__idf_cmock::@38f9eb59693b7394f54c",
+					"jsonFile" : "target-__idf_cmock-Debug-59b5221dacaf5d7029ec.json",
+					"name" : "__idf_cmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "__idf_console::@4311ed8d271cc0ee1422",
+					"jsonFile" : "target-__idf_console-Debug-edaf3a694b11faf02e33.json",
+					"name" : "__idf_console",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "__idf_cxx::@fc68b7334ac9a9392d41",
+					"jsonFile" : "target-__idf_cxx-Debug-05686cf81f54ea951692.json",
+					"name" : "__idf_cxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "__idf_driver::@76403182dd99a02c203e",
+					"jsonFile" : "target-__idf_driver-Debug-65af7e8b7367d11d4793.json",
+					"name" : "__idf_driver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "__idf_efuse::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-__idf_efuse-Debug-86aa2460edda799c38f2.json",
+					"name" : "__idf_efuse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "__idf_esp-tls::@fec40229f530785b7d3e",
+					"jsonFile" : "target-__idf_esp-tls-Debug-11b2b30e8c11a14b4b10.json",
+					"name" : "__idf_esp-tls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "__idf_esp_adc::@847b8318c687ffb50ebb",
+					"jsonFile" : "target-__idf_esp_adc-Debug-bdc09f2c36dbf1320097.json",
+					"name" : "__idf_esp_adc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "__idf_esp_app_format::@08c2bdce7fd85cdbea06",
+					"jsonFile" : "target-__idf_esp_app_format-Debug-eb1e8c89b3c2a25b709e.json",
+					"name" : "__idf_esp_app_format",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4",
+					"jsonFile" : "target-__idf_esp_common-Debug-75adcab5d9e487d8c8bb.json",
+					"name" : "__idf_esp_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "__idf_esp_eth::@68140d310044213ed0bc",
+					"jsonFile" : "target-__idf_esp_eth-Debug-b6ae0cf69546a46129b2.json",
+					"name" : "__idf_esp_eth",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "__idf_esp_event::@1426f3cbfb4523713151",
+					"jsonFile" : "target-__idf_esp_event-Debug-73191d5f90a1ddae82b2.json",
+					"name" : "__idf_esp_event",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "__idf_esp_gdbstub::@377a8c6ee3088554e323",
+					"jsonFile" : "target-__idf_esp_gdbstub-Debug-3f9bfbb010dc4698472e.json",
+					"name" : "__idf_esp_gdbstub",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "__idf_esp_hid::@15df40e16a5d8775dd9b",
+					"jsonFile" : "target-__idf_esp_hid-Debug-f1da0e69dd859a75efe5.json",
+					"name" : "__idf_esp_hid",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "__idf_esp_http_client::@483ffd9ca1a06508c93f",
+					"jsonFile" : "target-__idf_esp_http_client-Debug-961b252f12ac356f712c.json",
+					"name" : "__idf_esp_http_client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "__idf_esp_http_server::@1e8eede8f41363800887",
+					"jsonFile" : "target-__idf_esp_http_server-Debug-fe1f1e77409be155b34c.json",
+					"name" : "__idf_esp_http_server",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "__idf_esp_https_ota::@55ee5ec07370a5473c2b",
+					"jsonFile" : "target-__idf_esp_https_ota-Debug-c6efcbc0d68e6149b738.json",
+					"name" : "__idf_esp_https_ota",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb",
+					"jsonFile" : "target-__idf_esp_hw_support-Debug-ea187ec43d1e5a3ed1e3.json",
+					"name" : "__idf_esp_hw_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "__idf_esp_lcd::@d5a84597e1633c9ab0d3",
+					"jsonFile" : "target-__idf_esp_lcd-Debug-17f706e67b6b29f2a0a6.json",
+					"name" : "__idf_esp_lcd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef",
+					"jsonFile" : "target-__idf_esp_local_ctrl-Debug-74b0eec01e17ea0a69dd.json",
+					"name" : "__idf_esp_local_ctrl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "__idf_esp_netif::@0dd2a33d00052a11574d",
+					"jsonFile" : "target-__idf_esp_netif-Debug-959fe670ee4902e22dc8.json",
+					"name" : "__idf_esp_netif",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "__idf_esp_phy::@c4472d8d68a6cb344214",
+					"jsonFile" : "target-__idf_esp_phy-Debug-7f6f35b27ca198c8286d.json",
+					"name" : "__idf_esp_phy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "__idf_esp_pm::@c93acdd4f72df5fa58db",
+					"jsonFile" : "target-__idf_esp_pm-Debug-10c286045a4ce6be9668.json",
+					"name" : "__idf_esp_pm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "__idf_esp_ringbuf::@ad62994b1ce98b81017d",
+					"jsonFile" : "target-__idf_esp_ringbuf-Debug-539b8a3a797b5422fdbd.json",
+					"name" : "__idf_esp_ringbuf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "__idf_esp_rom::@c269e361cd87ad81e927",
+					"jsonFile" : "target-__idf_esp_rom-Debug-9219d51e2d3864022c02.json",
+					"name" : "__idf_esp_rom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "__idf_esp_serial_slave_link::@72a0e15e6ffa3d85517a",
+					"jsonFile" : "target-__idf_esp_serial_slave_link-Debug-ce2788bd5864e53705ee.json",
+					"name" : "__idf_esp_serial_slave_link",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "__idf_esp_system::@874df54e61e20112dfd4",
+					"jsonFile" : "target-__idf_esp_system-Debug-30dc85b26415d0939dfb.json",
+					"name" : "__idf_esp_system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "__idf_esp_timer::@08b57a33b2000f8ac4ee",
+					"jsonFile" : "target-__idf_esp_timer-Debug-0757cb5c19701f58b436.json",
+					"name" : "__idf_esp_timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "__idf_esp_wifi::@c33f1523799863800685",
+					"jsonFile" : "target-__idf_esp_wifi-Debug-1e4f3e8eb07661943f0e.json",
+					"name" : "__idf_esp_wifi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "__idf_espcoredump::@718b9a7d55ab42cfc0a3",
+					"jsonFile" : "target-__idf_espcoredump-Debug-8bc3dd5d44b2829dfcb1.json",
+					"name" : "__idf_espcoredump",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7",
+					"jsonFile" : "target-__idf_fatfs-Debug-4f8a62fdb0a1a755b386.json",
+					"name" : "__idf_fatfs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "__idf_freertos::@7334568587001871092c",
+					"jsonFile" : "target-__idf_freertos-Debug-ef9a4592860391b0957c.json",
+					"name" : "__idf_freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "__idf_hal::@41c1a00f56cd1e9ede18",
+					"jsonFile" : "target-__idf_hal-Debug-4d3888f75f509213851b.json",
+					"name" : "__idf_hal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "__idf_heap::@a3bf99b7c47be461ad9f",
+					"jsonFile" : "target-__idf_heap-Debug-5563587e03a381f50ade.json",
+					"name" : "__idf_heap",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "__idf_http_parser::@358cb9c2b49fd348008f",
+					"jsonFile" : "target-__idf_http_parser-Debug-a7cd365d92eaf5e3797a.json",
+					"name" : "__idf_http_parser",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "__idf_json::@c78a8bdc820334f01148",
+					"jsonFile" : "target-__idf_json-Debug-08d5c3301de4f6fc9bab.json",
+					"name" : "__idf_json",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70",
+					"jsonFile" : "target-__idf_log-Debug-f1923e8a20399cca6fb9.json",
+					"name" : "__idf_log",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "__idf_lwip::@72bd17b7eb336521f94d",
+					"jsonFile" : "target-__idf_lwip-Debug-fea0dc2be42c514d676a.json",
+					"name" : "__idf_lwip",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "__idf_main::@7368607ed66887415643",
+					"jsonFile" : "target-__idf_main-Debug-ffff22688dcabb9fbd0e.json",
+					"name" : "__idf_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "__idf_mbedtls::@9d0b8d44c897d31e7973",
+					"jsonFile" : "target-__idf_mbedtls-Debug-79f82b2e93de4cf1f0fc.json",
+					"name" : "__idf_mbedtls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56",
+					"jsonFile" : "target-__idf_mqtt-Debug-e01a04011c9b0a97edfc.json",
+					"name" : "__idf_mqtt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "__idf_newlib::@1dbc38583ffafd67f967",
+					"jsonFile" : "target-__idf_newlib-Debug-b9ea130b626d5e25bd89.json",
+					"name" : "__idf_newlib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "__idf_nvs_flash::@b6cf96db3b320cf2c923",
+					"jsonFile" : "target-__idf_nvs_flash-Debug-f55a2c165056990ea367.json",
+					"name" : "__idf_nvs_flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "__idf_perfmon::@aac0f647c32bb8f54a67",
+					"jsonFile" : "target-__idf_perfmon-Debug-d4ad512fe3f68ea5be2d.json",
+					"name" : "__idf_perfmon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "__idf_protobuf-c::@b14513c4bd859268ec22",
+					"jsonFile" : "target-__idf_protobuf-c-Debug-bda04826ca3732be0c83.json",
+					"name" : "__idf_protobuf-c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "__idf_protocomm::@d76d01c8dec06205e1fc",
+					"jsonFile" : "target-__idf_protocomm-Debug-ca9964e3c70be146796d.json",
+					"name" : "__idf_protocomm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e",
+					"jsonFile" : "target-__idf_pthread-Debug-6a3326d226e5f4abc8a1.json",
+					"name" : "__idf_pthread",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "__idf_sdmmc::@89ed5bca1750ffbc7db6",
+					"jsonFile" : "target-__idf_sdmmc-Debug-a12213be2d152574be7b.json",
+					"name" : "__idf_sdmmc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "__idf_soc::@824f1541829f13857909",
+					"jsonFile" : "target-__idf_soc-Debug-d593adf09895b0f82730.json",
+					"name" : "__idf_soc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "__idf_spi_flash::@6f8a8c72478269b2cd60",
+					"jsonFile" : "target-__idf_spi_flash-Debug-f5a30109197733e71a7a.json",
+					"name" : "__idf_spi_flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "__idf_spiffs::@df881b71474064c86689",
+					"jsonFile" : "target-__idf_spiffs-Debug-04fb3fe82bea969db041.json",
+					"name" : "__idf_spiffs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "__idf_tcp_transport::@2217ed266b3ca9834900",
+					"jsonFile" : "target-__idf_tcp_transport-Debug-f79ba5aac45dac73e9b9.json",
+					"name" : "__idf_tcp_transport",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "__idf_ulp::@59f74c71af7e30dd3e55",
+					"jsonFile" : "target-__idf_ulp-Debug-978d1c8bc2b396e9c585.json",
+					"name" : "__idf_ulp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "__idf_unity::@fec746937506b5690992",
+					"jsonFile" : "target-__idf_unity-Debug-44190ba28babb8c7e563.json",
+					"name" : "__idf_unity",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "__idf_vfs::@57481f90220bce4f7e1a",
+					"jsonFile" : "target-__idf_vfs-Debug-f049bdd1d42e766ee87c.json",
+					"name" : "__idf_vfs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6",
+					"jsonFile" : "target-__idf_wear_levelling-Debug-b777f3d655f91f873184.json",
+					"name" : "__idf_wear_levelling",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098",
+					"jsonFile" : "target-__idf_wifi_provisioning-Debug-0734a0dc1908cf88325b.json",
+					"name" : "__idf_wifi_provisioning",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "__idf_wpa_supplicant::@2124e86f93fbab1c8043",
+					"jsonFile" : "target-__idf_wpa_supplicant-Debug-8c38c1db53c9aba412a0.json",
+					"name" : "__idf_wpa_supplicant",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "__idf_xtensa::@1daaaad7abe597e030f9",
+					"jsonFile" : "target-__idf_xtensa-Debug-b44616b3868f7f6a6eb5.json",
+					"name" : "__idf_xtensa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "__ldgen_output_sections.ld::@874df54e61e20112dfd4",
+					"jsonFile" : "target-__ldgen_output_sections.ld-Debug-f5a56b577a6e324b35fe.json",
+					"name" : "__ldgen_output_sections.ld",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_project_elf_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_project_elf_src-Debug-66b0540a9940758062ce.json",
+					"name" : "_project_elf_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "apidoc::@b8f87a1a94d8d9bb59bb",
+					"jsonFile" : "target-apidoc-Debug-92c2f2089d67d6b1c282.json",
+					"name" : "apidoc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-Debug-e76c2e21ae1afd4fc6c3.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "app-flash::@bf8f55be585a12323665",
+					"jsonFile" : "target-app-flash-Debug-e80480fdf0587ed9ad34.json",
+					"name" : "app-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "app_check_size::@bf8f55be585a12323665",
+					"jsonFile" : "target-app_check_size-Debug-aa2c940a56696fe8a00d.json",
+					"name" : "app_check_size",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bootloader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bootloader-Debug-5fa4da32775809843d61.json",
+					"name" : "bootloader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "bootloader-flash::@4013c5adf9c02e1a402c",
+					"jsonFile" : "target-bootloader-flash-Debug-f34cd95ee376fc8f9f40.json",
+					"name" : "bootloader-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "confserver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-confserver-Debug-2c8b99135b8534e369fa.json",
+					"name" : "confserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "custom_bundle::@9d0b8d44c897d31e7973",
+					"jsonFile" : "target-custom_bundle-Debug-7c9220998890830970fd.json",
+					"name" : "custom_bundle",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "efuse-common-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse-common-table-Debug-649ed33528fca85310da.json",
+					"name" : "efuse-common-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "efuse-custom-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse-custom-table-Debug-55896b3464866b54bcc7.json",
+					"name" : "efuse-custom-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "efuse_common_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_common_table-Debug-56931eeb500034b221ab.json",
+					"name" : "efuse_common_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "efuse_custom_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_custom_table-Debug-1a9da5cb0ac377e30e42.json",
+					"name" : "efuse_custom_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "efuse_test_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-efuse_test_table-Debug-2343b98a2f9797c46aa9.json",
+					"name" : "efuse_test_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "encrypted-app-flash::@bf8f55be585a12323665",
+					"jsonFile" : "target-encrypted-app-flash-Debug-779967513220ac48ae77.json",
+					"name" : "encrypted-app-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "encrypted-bootloader-flash::@4013c5adf9c02e1a402c",
+					"jsonFile" : "target-encrypted-bootloader-flash-Debug-1098dce51b31033b24cf.json",
+					"name" : "encrypted-bootloader-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "encrypted-flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-encrypted-flash-Debug-7b9dad4b3a08e8abcfcb.json",
+					"name" : "encrypted-flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "encrypted-partition-table-flash::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-encrypted-partition-table-flash-Debug-71127f428d93b6036d48.json",
+					"name" : "encrypted-partition-table-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erase_flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erase_flash-Debug-8c908e962655ef97d092.json",
+					"name" : "erase_flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-2509143c1068c92a51f8.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gen_project_binary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gen_project_binary-Debug-e7e6be0c9b4375b31d86.json",
+					"name" : "gen_project_binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "lib::@12759e2a35724d846b97",
+					"jsonFile" : "target-lib-Debug-8493e4a470ef5e9202a8.json",
+					"name" : "lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mbedcrypto::@12759e2a35724d846b97",
+					"jsonFile" : "target-mbedcrypto-Debug-8521f7d2c17877f54683.json",
+					"name" : "mbedcrypto",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mbedtls::@12759e2a35724d846b97",
+					"jsonFile" : "target-mbedtls-Debug-0f73d6920d78eae1d6f9.json",
+					"name" : "mbedtls",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mbedx509::@12759e2a35724d846b97",
+					"jsonFile" : "target-mbedx509-Debug-b02e44386018964841ed.json",
+					"name" : "mbedx509",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "memory_ld::@874df54e61e20112dfd4",
+					"jsonFile" : "target-memory_ld-Debug-84759db845b73d96855e.json",
+					"name" : "memory_ld",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menuconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menuconfig-Debug-01f6998e1d6feb6e2569.json",
+					"name" : "menuconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monitor-Debug-7a090f14fdf273d67636.json",
+					"name" : "monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "partition-table::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-partition-table-Debug-41823bdf1aefdf981df9.json",
+					"name" : "partition-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "partition-table-flash::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-partition-table-flash-Debug-30e57f5280c0cc8bf58b.json",
+					"name" : "partition-table-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "partition_table::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-partition_table-Debug-5bc0032d16991183a14d.json",
+					"name" : "partition_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "partition_table-flash::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-partition_table-flash-Debug-14c5f62a7abd840772e8.json",
+					"name" : "partition_table-flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "partition_table_bin::@8e7a60ee4fe55e1aaabf",
+					"jsonFile" : "target-partition_table_bin-Debug-29615b1cc0f3dc8a0aba.json",
+					"name" : "partition_table_bin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "save-defconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-save-defconfig-Debug-24a49ae830e2c654fd24.json",
+					"name" : "save-defconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "show-efuse-table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-show-efuse-table-Debug-643a63af30bd23f3482f.json",
+					"name" : "show-efuse-table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "show_efuse_table::@2da764c922f8b73e9c75",
+					"jsonFile" : "target-show_efuse_table-Debug-d88e4460fa2904b0b45d.json",
+					"name" : "show_efuse_table",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-Debug-85987b6f454e8290aa05.json",
+					"name" : "size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size-components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-components-Debug-b46ceca712a86a856073.json",
+					"name" : "size-components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "size-files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-size-files-Debug-de543160e79c294ef1d1.json",
+					"name" : "size-files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uart_async_rxtxtasks.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uart_async_rxtxtasks.elf-Debug-683d6cf5885e6137c9b4.json",
+					"name" : "uart_async_rxtxtasks.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uf2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uf2-Debug-1b8d9a7d652bb09ac0d0.json",
+					"name" : "uf2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uf2-app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uf2-app-Debug-5aa3a9f3356e7fae1b3b.json",
+					"name" : "uf2-app",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dagra/esp/sender_module/cmake-build-esp-32",
+		"source" : "C:/Users/dagra/esp/sender_module"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

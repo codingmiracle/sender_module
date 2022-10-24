@@ -1,0 +1,21 @@
+C:\Users\dagra\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/dagra/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\dagra\esp\sender_module -B C:\Users\dagra\esp\sender_module\cmake-build-debug
+CMake Error at CMakeLists.txt:7 (include):
+  include could not find requested file:
+
+    /tools/cmake/project.cmake
+
+
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/MinGW/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/dagra/esp/sender_module/cmake-build-debug/CMakeFiles/CMakeOutput.log".
