@@ -1,0 +1,8 @@
+cmake-build-esp-32/
+
+cmake-build-debug/
+
+*.log
+
+build/log/
+
