@@ -1,19 +1,4 @@
 C:\Users\dagra\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/dagra/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\dagra\esp\sender_module -B C:\Users\dagra\esp\sender_module\cmake-build-esp-32
--- The C compiler identification is GNU 11.2.0
--- The CXX compiler identification is GNU 11.2.0
--- The ASM compiler identification is GNU
--- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32
 -- Checking Python dependencies...
 Python requirements are satisfied.
@@ -23,22 +8,7 @@ Requirement files:
  - C:\Espressif\frameworks\esp-idf-master\tools\requirements\requirements.core.txt
 Python being checked: C:\Espressif\python_env\idf5.1_py3.9_env\Scripts\python.exe
 -- Project sdkconfig file C:/Users/dagra/esp/sender_module/sdkconfig
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stdint.h
--- Looking for stdint.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of time_t
--- Check size of time_t - done
--- Found Python3: C:/Espressif/python_env/idf5.1_py3.9_env/Scripts/python.exe (found version "3.9.13") found components: Interpreter 
--- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
--- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
-Hardlink created for C:\Users\dagra\esp\sender_module\cmake-build-esp-32\esp-idf\mbedtls\mbedtls\library\error.c <<===>> C:\Espressif\frameworks\esp-idf-master\components\mbedtls\mbedtls\library\error.c
-Hardlink created for C:\Users\dagra\esp\sender_module\cmake-build-esp-32\esp-idf\mbedtls\mbedtls\library\version_features.c <<===>> C:\Espressif\frameworks\esp-idf-master\components\mbedtls\mbedtls\library\version_features.c
-Hardlink created for C:\Users\dagra\esp\sender_module\cmake-build-esp-32\esp-idf\mbedtls\mbedtls\library\ssl_debug_helpers_generated.c <<===>> C:\Espressif\frameworks\esp-idf-master\components\mbedtls\mbedtls\library\ssl_debug_helpers_generated.c
-Hardlink created for C:\Users\dagra\esp\sender_module\cmake-build-esp-32\esp-idf\mbedtls\mbedtls\library\ssl_debug_helpers_generated.h <<===>> C:\Espressif\frameworks\esp-idf-master\components\mbedtls\mbedtls\library\ssl_debug_helpers_generated.h
--- App "uart_async_rxtxtasks" version: 1
+-- App "uart_async_rxtxtasks" version: b9e246c-dirty
 -- Adding linker script C:/Users/dagra/esp/sender_module/cmake-build-esp-32/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Espressif/frameworks/esp-idf-master/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Espressif/frameworks/esp-idf-master/components/esp_rom/esp32/ld/esp32.rom.ld
