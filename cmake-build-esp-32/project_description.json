@@ -6,7 +6,7 @@
     "config_defaults":    "",
     "app_elf":            "uart_async_rxtxtasks.elf",
     "app_bin":            "uart_async_rxtxtasks.bin",
-    "git_revision":       "ae256e9ca2",
+    "git_revision":       "ae256e9ca2-dirty",
     "target":             "esp32",
     "rev":                "0",
     "phy_data_partition": "",
