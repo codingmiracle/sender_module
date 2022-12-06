@@ -11,29 +11,26 @@
 #include "driver/gpio.h"
 #include "aes/esp_aes.h"
 #include "esp_random.h"
-
-const uint8_t packet_delimiter = 0xaa;
-const int packet_overhead = 3;
-const int packet_lengthBytes = 2;
-const int packet_lengthOffset = 1;
-const int packet_maxLen = 1024;
-
-const int RX_BUF_SIZE = packet_maxLen;
-const int TX_BUF_SIZE = packet_maxLen;
-
+#include "ERDTs.h"
 
 #define TXD_PIN (GPIO_NUM_17)
 #define RXD_PIN (GPIO_NUM_16)
 #define SET_PIN (GPIO_NUM_4)
 
-const uart_config_t uart_config_hc12 = {
-        .baud_rate = 115200,
-        .data_bits = UART_DATA_8_BITS,
-        .parity = UART_PARITY_DISABLE,
-        .stop_bits = UART_STOP_BITS_1,
-        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
-        .source_clk = UART_SCLK_DEFAULT,
+const int RX_BUF_SIZE = 2048;
+const int TX_BUF_SIZE = 0; // 0 => send imidiately
+
+const parser_packet_ctx packetCtx = {
+        .delimiter=0xaa,
+        .overhead=3,
+        .lengthBytes=2,
+        .lengthOffset=1,
+        .maxLen=1024,
+        .queueSize=100
 };
+
+QueueHandle_t messageQueue;
+
 
 void gpio_setup(void) {
     esp_rom_gpio_pad_select_gpio(SET_PIN);
@@ -51,30 +48,31 @@ void init(void) {
             .source_clk = UART_SCLK_DEFAULT,
     };
 
-    // We won't use a buffer for sending data.
     uart_driver_install(UART_NUM_1, RX_BUF_SIZE, TX_BUF_SIZE, 0, NULL, 0);
     uart_param_config(UART_NUM_1, &uart_config_start);
     uart_set_pin(UART_NUM_1, TXD_PIN, RXD_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+
+    messageQueue = xQueueCreate(100, max_cargo(&packetCtx));
 }
 
-int sendData(const char *logName, const void *buffer, int buff_len) {
-    uint8_t packet[buff_len + packet_overhead];
-    packet[0] = packet_delimiter;
-    memcpy(packet + packet_lengthOffset, &buff_len, packet_lengthBytes);
-    memcpy(packet + packet_overhead, buffer, buff_len);
+int sendData(const void *buffer, int buff_len) {
+    uint8_t packet[buff_len + packetCtx.overhead];
+    packet[0] = packetCtx.delimiter;
+    memcpy(packet + packetCtx.lengthOffset, &buff_len, packetCtx.lengthBytes);
+    memcpy(packet + packetCtx.overhead, buffer, buff_len);
     const int txBytes = uart_write_bytes(UART_NUM_1, packet, sizeof(packet));
-    ESP_LOGI(logName, "Wrote %d bytes: ", txBytes);
-    ESP_LOG_BUFFER_HEXDUMP(logName, packet, sizeof(packet), ESP_LOG_INFO);
     return txBytes;
 }
 
 _Noreturn static void tx_task(void *arg) {
     static const char *TX_TASK_TAG = "TX_TASK";
     esp_log_level_set(TX_TASK_TAG, ESP_LOG_INFO);
-    const char msg[] = "Hello";
     while (1) {
-        sendData(TX_TASK_TAG, msg, strlen(msg));
-        vTaskDelay(20 / portTICK_PERIOD_MS);
+        if(uxQueueMessagesWaiting(messageQueue)){
+            uint8_t *cargo = malloc(max_cargo(&packetCtx));
+            xQueueReceive(messageQueue, cargo, 0);
+            sendData(cargo, sizeof(cargo));
+        }
     }
 }
 

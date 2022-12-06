@@ -8,7 +8,7 @@ Requirement files:
  - C:\Espressif\frameworks\esp-idf-master\tools\requirements\requirements.core.txt
 Python being checked: C:\Espressif\python_env\idf5.1_py3.9_env\Scripts\python.exe
 -- Project sdkconfig file C:/Users/dagra/esp/sender_module/sdkconfig
--- App "uart_async_rxtxtasks" version: b9e246c-dirty
+-- App "uart_async_rxtxtasks" version: 19fa065-dirty
 -- Adding linker script C:/Users/dagra/esp/sender_module/cmake-build-esp-32/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Espressif/frameworks/esp-idf-master/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Espressif/frameworks/esp-idf-master/components/esp_rom/esp32/ld/esp32.rom.ld
