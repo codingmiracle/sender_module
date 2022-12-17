@@ -1,4 +1,0 @@
--- IDF_TARGET not set, using default target: esp32
--- Found Git: C:/Users/dagra/AppData/Local/Programs/Git/cmd/git.exe (found version "2.37.1.windows.1") 
--- Initialising new submodule components/bootloader/subproject/components/micro-ecc/micro-ecc...
--- Configuring incomplete, errors occurred!

@@ -11,7 +11,7 @@
 #include "driver/gpio.h"
 #include "aes/esp_aes.h"
 #include "esp_random.h"
-#include "ERDTs.h"
+#include "../components/erdts/ERDTs.h"
 
 #define TXD_PIN (GPIO_NUM_17)
 #define RXD_PIN (GPIO_NUM_16)
@@ -25,7 +25,7 @@ const parser_packet_ctx packetCtx = {
         .overhead=3,
         .lengthBytes=2,
         .lengthOffset=1,
-        .maxLen=1024,
+        .maxLen=1027,
         .queueSize=100
 };
 
@@ -39,40 +39,16 @@ void gpio_setup(void) {
 }
 
 void init(void) {
-    const uart_config_t uart_config_start = {
-            .baud_rate = 9600,
-            .data_bits = UART_DATA_8_BITS,
-            .parity = UART_PARITY_DISABLE,
-            .stop_bits = UART_STOP_BITS_1,
-            .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
-            .source_clk = UART_SCLK_DEFAULT,
-    };
-
-    uart_driver_install(UART_NUM_1, RX_BUF_SIZE, TX_BUF_SIZE, 0, NULL, 0);
-    uart_param_config(UART_NUM_1, &uart_config_start);
-    uart_set_pin(UART_NUM_1, TXD_PIN, RXD_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
-
-    messageQueue = xQueueCreate(100, max_cargo(&packetCtx));
-}
-
-int sendData(const void *buffer, int buff_len) {
-    uint8_t packet[buff_len + packetCtx.overhead];
-    packet[0] = packetCtx.delimiter;
-    memcpy(packet + packetCtx.lengthOffset, &buff_len, packetCtx.lengthBytes);
-    memcpy(packet + packetCtx.overhead, buffer, buff_len);
-    const int txBytes = uart_write_bytes(UART_NUM_1, packet, sizeof(packet));
-    return txBytes;
+    erdts_config(&packetCtx, RX_BUF_SIZE, TX_BUF_SIZE);
 }
 
 _Noreturn static void tx_task(void *arg) {
     static const char *TX_TASK_TAG = "TX_TASK";
     esp_log_level_set(TX_TASK_TAG, ESP_LOG_INFO);
+    const char msg[] = "Hello World!! This is a test Text haskhgadl759236ß97329";
     while (1) {
-        if(uxQueueMessagesWaiting(messageQueue)){
-            uint8_t *cargo = malloc(max_cargo(&packetCtx));
-            xQueueReceive(messageQueue, cargo, 0);
-            sendData(cargo, sizeof(cargo));
-        }
+        erdts_send(&packetCtx, msg, strlen(msg));
+        vTaskDelay(2000/portTICK_PERIOD_MS);
     }
 }
 
@@ -93,6 +69,6 @@ _Noreturn static void rx_task(void *arg) {
 
 void app_main(void) {
     init();
-    xTaskCreate(rx_task, "uart_rx_task", 1024 * 2, NULL, configMAX_PRIORITIES, NULL);
-    xTaskCreate(tx_task, "uart_tx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 1, NULL);
+    xTaskCreate(rx_task, "uart_rx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 6, NULL);
+    xTaskCreate(tx_task, "uart_tx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 5, NULL);
 }
