@@ -1,3 +1,4 @@
+#include <sys/cdefs.h>
 #include <mbedtls/aes.h>
 
 #include "freertos/FreeRTOS.h"
@@ -22,42 +23,39 @@ const parser_packet_ctx packetCtx = {
 };
 
 
-_Noreturn static void tx_task(void *arg) {
-    static const char *TX_TASK_TAG = "TX_TASK";
-    esp_log_level_set(TX_TASK_TAG, ESP_LOG_INFO);
-    const char msg[] = "Hello World!! This is a test Text haskhgadl759236ß97329";
-    while (1) {
-        erdts_send(&packetCtx, msg, strlen(msg));
-        vTaskDelay(2000 / portTICK_PERIOD_MS);
-    }
-}
+typedef struct {
+    esp_aes_context *aes_ctx;
+    uint8_t *iv;
+    int rx_buff_size;
+    char *token;
+} rx_task_params;
 
 _Noreturn static void rx_task(void *arg) {
     static const char *RX_TASK_TAG = "RX_TASK";
     esp_log_level_set(RX_TASK_TAG, ESP_LOG_INFO);
-    uint8_t *data = (uint8_t *) malloc(RX_BUF_SIZE + 1);
+    rx_task_params *params = (rx_task_params*) arg;
+    uint8_t *data = (uint8_t *) malloc(params->rx_buff_size);
     while (1) {
-        const int rxBytes = uart_read_bytes(UART_NUM_1, data, RX_BUF_SIZE, 1000 / portTICK_PERIOD_MS);
-        if (rxBytes > 0) {
-            data[rxBytes] = 0;
-            ESP_LOGI(RX_TASK_TAG, "Read %d bytes: '%s'", rxBytes, data);
-            ESP_LOG_BUFFER_HEXDUMP(RX_TASK_TAG, data, rxBytes, ESP_LOG_INFO);
+        int rx_bytes = erdts_read(params->aes_ctx, params->iv, data, params->rx_buff_size);
+        if(rx_bytes > 0) {
+            if(check_flag(data) == ERDTS_END) {
+                erdts_end_session(params->aes_ctx, &packetCtx, params->iv, params->token);
+            }
+            esp_log_buffer_hexdump_internal(RX_TASK_TAG, data, rx_bytes, ESP_LOG_INFO);
         }
     }
     free(data);
 }
 
-void app_main(void) {
+_Noreturn void app_main(void) {
     SSD1306_t device;
     esp_aes_context aes_ctx;
 
     const char *TAG = "SSD1306";
 
     char token[6];
-    uint8_t key[erdts_key_length / 8];
     uint8_t session_key[erdts_key_length / 8];
     uint8_t aes_iv[erdts_iv_length];
-    memset(key, 0, erdts_key_length / 8);
     memset(aes_iv, 0, erdts_iv_length);
 
     //*** SETUP ***//
@@ -77,15 +75,18 @@ void app_main(void) {
 
     //*** MASTERKEY CREATION ***//
     getRandomString(token, sizeof(token));
-    generate_key((uint8_t *) token, strlen(token), key);
     ssd1306_display_text_x3(&device, 1, token, 5, false);
-    esp_log_buffer_hexdump_internal("key", key, sizeof(key), ESP_LOG_INFO);
-    if (esp_aes_setkey(&aes_ctx, key, erdts_key_length) == MBEDTLS_ERR_AES_INVALID_KEY_LENGTH) {
-        ESP_LOGE("AES_CONFIG", "Invalid Keylength");
-        return;
-    }
 
-    erdts_start_session(&packetCtx, &aes_ctx, key, aes_iv, session_key, RX_BUF_SIZE);
+    erdts_start_session(&packetCtx, &aes_ctx, token, aes_iv, session_key, RX_BUF_SIZE);
+
+    rx_task_params rx_params = {
+            .aes_ctx = &aes_ctx,
+            .iv = aes_iv,
+            .token = token,
+            .rx_buff_size = RX_BUF_SIZE
+    };
+    xTaskCreatePinnedToCore(rx_task, "uart_rx_task", 1024 * 2, (void*) &rx_params, configMAX_PRIORITIES - 6, NULL, PRO_CPU_NUM);
+
 
     char msg[128];
     memset(msg, 0, sizeof(msg));
@@ -95,16 +96,12 @@ void app_main(void) {
         uint8_t encrypted[128];
         getRandomString(msg, 128);
 
-        esp_log_buffer_hexdump_internal("msg:", msg, sizeof(msg), ESP_LOG_INFO);
+        //esp_log_buffer_hexdump_internal("msg:", msg, sizeof(msg), ESP_LOG_INFO);
         esp_aes_crypt_cbc(&aes_ctx, ESP_AES_ENCRYPT, sizeof(encrypted), aes_iv, (uint8_t *) msg, encrypted);
         memset(aes_iv, 0, erdts_iv_length);
 
         sendData(&packetCtx, encrypted, sizeof(encrypted));
-        vTaskDelay(10000 / portTICK_PERIOD_MS);
     }
-
-    //xTaskCreate(rx_task, "uart_rx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 6, NULL);
-    //xTaskCreate(tx_task, "uart_tx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 5, NULL);
 }
 
-//xTaskCreatePinnedToCore() -> task in core zuweisen
+//TODO: test latency and bitrate
